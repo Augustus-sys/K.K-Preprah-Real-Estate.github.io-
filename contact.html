@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KK Preprah Real Estate</title>
+    <link rel="stylesheet" href="r.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listing.html">Listings</a></li>
+                <li><a href="details.html">Details</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or need further information, please feel free to contact us using the form below.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+         <p>Our Socials</p>
+        <ul>
+            <li><i class='bx bxl-facebook-circle'></i></li>
+             <li><i class='bx bxl-instagram-alt' ></i></li>
+              <li><i class='bx bxl-twitter' ></i></li>
+               <li><i class='bx bxl-whatsapp-square' ></i></li>
+        </ul>
+        <p>&copy; 2024 Real Estate Company</p>
+    </footer>
+</body>
+</html>
